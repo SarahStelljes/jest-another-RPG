@@ -54,6 +54,6 @@ test("gets enemy's attack value", () => {
 test('gets a description of the enemy', () => {
     const enemy = new Enemy('goblin', 'sword');
 
-    expect(enemy.getDiscription()).toEqual(expect.stringContaining('goblin'));
-    expect(enemy.getDiscription()).toEqual(expect.stringContaining('sword'));
+    expect(enemy.getDescription()).toEqual(expect.stringContaining('goblin'));
+    expect(enemy.getDescription()).toEqual(expect.stringContaining('sword'));
 })
